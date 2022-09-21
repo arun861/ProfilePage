@@ -16,7 +16,7 @@
  </nav>
 </header>
 <div id="center">
-<div id="center-set"> - By Someone
+<div id="center-set"> - By Arun
 <div id="signup">
 <div id="signup-st">
 <div align="center">

@@ -6,19 +6,19 @@
 <head>
  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
  <link rel="stylesheet" type="text/css" href="style.css" />
- <title>Fresherprofiles - Login Demo</title>
+ <title>Seniorprofiles - Login Demo</title>
 </head>
 <body>
 <header>
  <nav>
   <ul>
-   <li><a href="https://FresherProfiles.com">Fresherprofiles</a></li>
-   <li><a href="https://fresherprofiles.com/web/student">Profile Builder</a></li>
+   <li><a href="https://FresherProfiles.com">Seniorprofiles</a></li>
+   <li><a href="https://Seniorprofiles.com/web/student">Profile Builder</a></li>
   </ul>
  </nav>
 </header>
 <div id="center">
-<div id="center-set"> - By Santosh Navale
+<div id="center-set"> - By Someone
 <h1 align='center'>Welcome <?php echo $loggedin_session; ?>,</h1>
 You are now logged in. you can logout by clicking on signout link given below.
 <div id="contentbox">
@@ -51,7 +51,7 @@ while($rows=mysqli_fetch_array($result)){
 <td class="tl-4"><?php echo $rows['address']; ?></td>
 </tr>
 </table>
-<div id="reg-bottom" class="btmrg">Copyright &copy; 2022 Fresherprofiles.com</div>
+<div id="reg-bottom" class="btmrg">Copyright &copy; 2022 Seniorprofiles.com</div>
 </form>
 </div>
 </div>
@@ -69,6 +69,6 @@ while($rows=mysqli_fetch_array($result)){
 </div>
 </div>
 </br>
-<div id="footer"><p> Copyright &copy; 2022 Fresherprofiles.com </p></div>
+<div id="footer"><p> Copyright &copy; 2022 Seniorprofiles.com </p></div>
 </body>
 </html>

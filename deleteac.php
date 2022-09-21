@@ -19,6 +19,8 @@ setInterval(function(){ countdown(); },1000);
 </script>
 <?php
 $id=$loggedin_id;
+$sql2="INSERT INTO deletedUser values($id)";
+$result2=mysqli_query($con,$sql2);
 $sql="DELETE FROM member WHERE mem_id='$id'";
 $result=mysqli_query($con,$sql);
 if($result){

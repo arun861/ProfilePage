@@ -10,13 +10,13 @@
 <header>
  <nav>
   <ul>
-   <li><a href="https://SeniorProfiles.com">Senior profiles</a></li>
-   <li><a href="https://Seniorprofiles.com/web/student">Profile Builder</a></li>
+   <li><a href="https://SeniorProfiles.com">Fresher profiles</a></li>
+   <li><a href="https://Seniorprofiles.com/web/student">Fresher Builder</a></li>
   </ul>
  </nav>
 </header>
 <div id="center">
-<div id="center-set"> - By Arun
+<div id="center-set"> - By Santhosh
 <div id="signup">
 <div id="signup-st">
 <div align="center">
@@ -97,6 +97,6 @@ echo ' <div id="reg-head-fail" class="headrg">Login Failed!, Invalid Credentials
 </div>
 </div>
 </div>
-<div id="footer"><p> Copyright &copy; 2022 SeniorProfiles.com </p></div>
+<div id="footer"><p> Copyright &copy; 2022 fresherProfiles.com </p></div>
 </body>
 </html>
